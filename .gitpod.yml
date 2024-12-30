@@ -1,0 +1,11 @@
+# .gitpod.yml
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: pip install openai
+    command: python3
+
+vscode:
+  extensions:
+    - ms-python.python
