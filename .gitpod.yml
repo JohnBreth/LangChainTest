@@ -1,6 +1,6 @@
 # .gitpod.yml
-image:
-  file: .gitpod.Dockerfile
+#image:
+# file: .gitpod.Dockerfile
 
 tasks:
   - init: pip install openai
